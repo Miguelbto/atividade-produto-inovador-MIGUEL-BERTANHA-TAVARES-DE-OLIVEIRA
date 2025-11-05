@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    scroll-behavior: smooth
+}
+
+#titulo-header {
+    margin-left: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#d02043);
+}
+
+
+#navegacao-lista {
+    display: flex;
+    padding: 32px;
+}
+
+#itens-lista {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+#itens-lista:hover {
+    text-decoration: underline;
+}
+
+#itens-lista:active {
+    color: antiquewhite;
+}
+
+#navegacao-lista-itens {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+
+main {
+    max-width: 1500px;
+    width: 90%;
+    padding: 40px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: crimson;
+    color: aliceblue;
+}
+
+#caixa-slogan {
+    background-color: rgb(223, 83, 83);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+#img-slogan {
+    max-width: 80%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 2;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);
+}
+
+#slogan {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+#slogan::first-letter {
+    font-size: 2rem;
+    color: black;
+}
+
+section {
+    padding: 40px;
+}
+
+#especificacoes {
+    background-color: rgb(223, 83, 83);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+#img-especificacoes {
+    max-width: 40%;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);
+    margin-top: 20px;
+}
+
+tr:nth-child(even) {
+    color: black;
+}
+
+#titulo-especificacoes {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50px;
+    padding: 3px;
+}
+
+#tabela-especificacoes {
+    border: 2px black solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela-especificacoes-conteudo {
+    border: 2px black solid;
+    padding: 20px;
+}
+
+#galeria {
+    background-color: rgb(223, 83, 83);
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#galeria-titulo {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#imagens {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: auto;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin-top: 3rem;
+}
+
+#itens-recursos {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.botao-comprar {
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.botao-comprar:hover {
+    opacity: 0.1;
+}
